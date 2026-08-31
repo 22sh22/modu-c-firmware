@@ -7,6 +7,16 @@
 
 #include "modu.dtsi"
 
+/ {
+    chosen {
+        zmk,kscan = &alt_thumb_kscan;
+    };
+};
+
+&alt_thumb_kscan {
+    status = "okay";
+};
+
 &default_transform {
     col-offset = <6>;
 };
@@ -25,5 +35,11 @@
 };
 
 &trackball {
-    invert-x;
+    invert-y;
+    orientation-gpios = <&gpio0 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    alt-swap-xy;
+    alt-invert-x;
+    alt-invert-y;
+    alt-rotation-cos-milli = <707>;
+    alt-rotation-sin-milli = <(-707)>;
 };
