@@ -1,0 +1,33 @@
+/*
+ * Copyright (c) 2026 The Modu Contributors
+ * SPDX-License-Identifier: MIT
+ *
+ * BLE wireless central. Owns both trackball listeners (local + peripheral proxy).
+ */
+
+#include "modu.dtsi"
+
+&kscan_matrix {
+    col-gpios
+        = <&gpio0 27 GPIO_ACTIVE_HIGH>
+        , <&gpio0 31 GPIO_ACTIVE_HIGH>
+        , <&gpio0 28 GPIO_ACTIVE_HIGH>
+        , <&gpio0 29 GPIO_ACTIVE_HIGH>
+        , <&gpio0  2 GPIO_ACTIVE_HIGH>
+        , <&gpio1 15 GPIO_ACTIVE_HIGH>
+        ;
+};
+
+&trackball {
+    invert-x;
+};
+
+/* Local (left-half) trackball -> host HID. */
+&trackball_listener {
+    status = "okay";
+};
+
+/* Peripheral (right-half) trackball proxied over BLE split -> host HID. */
+&peripheral_trackball_listener {
+    status = "okay";
+};
