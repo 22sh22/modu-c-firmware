@@ -1,6 +1,6 @@
 # MODU Firmware
 
-MODU split keyboard용 ZMK 보드, 쉴드 및 기능 모듈 소스입니다.
+MODU-C 키보드용 ZMK 펌웨어 소스입니다.
 
 빌드하려면 `west build`가 동작하는 ZMK 개발 환경과 Zephyr SDK가 필요합니다.
 
