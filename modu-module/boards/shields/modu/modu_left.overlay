@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2026 The Modu Contributors
- * SPDX-License-Identifier: MIT
+ * Copyright (c) 2026 EKS Inc.
+ * Created by Ryu.
+ * SPDX-License-Identifier: LicenseRef-EKS-NonCommercial-1.0
  *
  * BLE wireless central. Owns both trackball listeners (local + peripheral proxy).
  */

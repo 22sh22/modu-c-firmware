@@ -7,7 +7,7 @@ The `zmk-pmw3610-driver` directory is based on work by the ZMK contributors, ufa
 - Source: https://github.com/badjeff/zmk-pmw3610-driver
 - License: MIT, except files that state another license
 
-The applicable MIT License text is included in the repository's root `LICENSE` file.
+The applicable MIT License text is included in `LICENSES/MIT.txt`.
 
 `zmk-pmw3610-driver/Kconfig` is licensed under `LicenseRef-Nordic-5-Clause`:
 

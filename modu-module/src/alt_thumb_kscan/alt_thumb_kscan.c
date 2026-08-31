@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2026 The Modu Contributors
- * SPDX-License-Identifier: MIT
+ * Copyright (c) 2026 EKS Inc.
+ * Created by Ryu.
+ * SPDX-License-Identifier: LicenseRef-EKS-NonCommercial-1.0
  */
 
 #define DT_DRV_COMPAT modu_kscan_alt_thumb_remap

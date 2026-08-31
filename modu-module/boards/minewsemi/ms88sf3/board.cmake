@@ -1,5 +1,6 @@
-# Copyright (c) 2026 The Modu Contributors
-# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 EKS Inc.
+# Created by Ryu.
+# SPDX-License-Identifier: LicenseRef-EKS-NonCommercial-1.0
 
 board_runner_args(pyocd "--target=nrf52840" "--frequency=1000000")
 board_runner_args(nrfjprog "--nrf-family=NRF52" "--softreset")
