@@ -12,7 +12,7 @@ build.bat C:\zmk\app
 
 생성된 `modu_left.uf2`와 `modu_right.uf2`는 `outputs` 폴더에 저장됩니다.
 
-트랙볼의 외측·내측 설치 방향은 P0.08 상태에 따라 부팅 시 선택됩니다.
+**키매핑 파일의 위치는 `modu-module/boards/shields/modu/modu.keymap` 입니다.**
 
 미리 빌드된 펌웨어는 GitHub Releases에서 배포합니다.
 
